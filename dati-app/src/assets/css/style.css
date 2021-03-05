@@ -1,0 +1,103 @@
+/* 全局的css样式 */
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #FFF3EE;
+}
+.container h1 {
+  width: 100%;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  color: #333;
+}
+.container .btn {
+  width: 60%;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.itemContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #FFF3EE;
+}
+.itemContainer h1 {
+  width: 90%;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #666;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+.itemContainer .optContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.itemContainer .optContainer .optItems {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  font-size: 18px;
+  background: #C4E1FF;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.itemContainer .optContainer .optItems.correct {
+  background: #CCFF80;
+  color: #666;
+}
+.itemContainer .optContainer .optItems.error {
+  background: #FF5151;
+  color: #333;
+}
+.loading {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.backContainer {
+  width: 100%;
+  height: 100vh;
+  background: #FFF3EE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.backContainer h1 {
+  color: #666;
+  font-size: 28px;
+}
+.backContainer h1 span {
+  margin: 0 5px;
+  color: #333;
+  font-size: 30px;
+}
+.backContainer .backBtn {
+  width: 80%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 18px;
+}
